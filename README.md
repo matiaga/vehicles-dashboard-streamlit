@@ -83,8 +83,16 @@ https://your-app-name.onrender.com
 
 ---
 
-## Author
+## 👩‍💻 Autor
 
-Mónica Atiaga
+**Mónica Atiaga**
 
-Data Science Bootcamp | TripleTen
+Ingeniera en Computación | Ciencia de Datos | Machine Learning
+
+GitHub:
+
+https://github.com/matiaga
+
+LinkedIn:
+
+https://www.linkedin.com/in/monica-atiaga
