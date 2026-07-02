@@ -1,12 +1,17 @@
 import pandas as pd
-import plotly.graph_objects as go  # Importación de plotly.graph_objects como go
+import plotly.graph_objects as go
 import streamlit as st
 
 # Leer los datos del archivo CSV
 car_data = pd.read_csv("vehicles_us.csv")
 
-# Crear un botón en la aplicación Streamlit
-# hist_button = st.button('Construir histograma')
+# Configuración de la página
+st.set_page_config(
+    page_title="Dashboard: Ventas de vehículos", page_icon="🚗", layout="wide"
+)
+
+# Crear encabezado
+st.header("🚗 Dashboard: Ventas de vehículos")
 
 # crear una casilla de verificación
 build_histogram = st.checkbox("Construir un histograma")
@@ -28,3 +33,9 @@ if build_histogram:
     # Mostrar el gráfico Plotly interactivo en la aplicación Streamlit
     # 'use_container_width=True' ajusta el ancho del gráfico al contenedor
     st.plotly_chart(fig, use_container_width=True)
+
+"""
+## Dataset
+"""
+
+car_data

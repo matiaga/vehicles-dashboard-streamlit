@@ -16,7 +16,7 @@ El objetivo principal es construir y desplegar una **aplicación web interactiva
  
 ---
 
-## Features
+## ✨ Features
 
 - Interactive dashboard built with Streamlit
 - Histogram visualization
@@ -27,7 +27,7 @@ El objetivo principal es construir y desplegar una **aplicación web interactiva
 
 ---
 
-## Technologies
+## 🛠 Technologies
 
 - Python
 - Pandas
@@ -38,7 +38,7 @@ El objetivo principal es construir y desplegar una **aplicación web interactiva
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 vehicles-dashboard-streamlit/
@@ -53,7 +53,7 @@ vehicles-dashboard-streamlit/
 
 ---
 
-## Run Locally
+## ⚙️ Run Locally
 
 Clone the repository
 
@@ -75,11 +75,11 @@ streamlit run app.py
 
 ---
 
-## Live Demo
+## ☁ Live Demo
 
 Render deployment:
 
-https://your-app-name.onrender.com
+https://vehicles-dashboard-streamlit-3gw0.onrender.com
 
 ---
 
