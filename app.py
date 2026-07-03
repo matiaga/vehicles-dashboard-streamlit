@@ -31,7 +31,7 @@ def generate_box_plot(df, percentil99=False):
         y="condition",
         orientation="h",
         # points=False,
-        title="Diagráma de Cajas: Precio según condición del vehículo",
+        title="Diagrama de Cajas: Precio según condición del vehículo",
         labels={"condition": "Condición", "price": "Precio (USD)"},
     )
 
@@ -212,7 +212,7 @@ with col2:
 st.markdown("---")
 
 # Gráfico Precio según condición del vehículo
-check_percentil99 = st.checkbox("Limita el Diagráma de cajas al percentil 99")
+check_percentil99 = st.checkbox("Limita el Diagrama de cajas al percentil 99")
 
 # Crear Diagrama de cajas segun condición del vehículo
 fig_plot_cond = generate_box_plot(car_data, check_percentil99)
@@ -242,10 +242,25 @@ st.dataframe(
     column_config=pre.CONFIG_DATAFRAME,
 )
 
-
-st.header("👓 Conclusiones")
 st.markdown(
-    """Del análisis exploratorio se identificó que las variables **precio**, **kilometraje**, **condición** y **año del modelo** 
-    proporcionan la información más relevante para comprender el mercado de vehículos usados. Por este motivo, 
-    estas variables fueron seleccionadas para construir el dashboard interactivo en Streamlit."""
+    """
+    <div style="
+        background-color: #F8FAFC;
+        padding: 22px;
+        border-radius: 14px;
+        border: 1px solid #E2E8F0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    ">
+        <h3 style="margin-top: 0;">💡 Insights clave</h3>
+        <ul style="font-size: 16px; line-height: 1.7;">
+            <li>La mayoría de vehículos se concentra en rangos de precio bajos y medios, con algunos valores extremos de alto precio.</li>
+            <li>El kilometraje es una variable relevante para analizar el valor del vehículo, aunque su relación con el precio no es completamente lineal.</li>
+            <li>Los vehículos en mejores condiciones tienden a presentar precios más altos.</li>
+            <li>Los modelos más recientes muestran, en general, precios promedio superiores.</li>
+            <li>El precio final parece estar influenciado por una combinación de factores: año del modelo, kilometraje, condición y características del vehículo.</li>
+        </ul>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
