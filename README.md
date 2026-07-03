@@ -1,5 +1,12 @@
 # 🚗 Project Overview | Descripción del Proyecto
 
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?logo=plotly)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## 🇺🇸 English
 
 This project was developed as part of the **TripleTen Data Science Bootcamp (Sprint 07: Software Development Tools)**.
@@ -14,6 +21,17 @@ Este proyecto fue desarrollado como parte del **Bootcamp de Ciencia de Datos de 
 
 El objetivo principal es construir y desplegar una **aplicación web interactiva para el Análisis Exploratorio de Datos (EDA)** utilizando un conjunto de datos de anuncios de venta de vehículos usados. La aplicación fue desarrollada con **Python, Pandas, Plotly y Streamlit**, permitiendo a los usuarios explorar la información mediante visualizaciones interactivas y obtener una comprensión más clara de los datos.
  
+---
+# 🚀 Demo
+
+### 🎥 Vista previa
+
+> *(Reemplazar por un GIF grabado con ScreenToGif)*
+
+<p align="center">
+<img src="images/dashboard-demo.gif" width="900">
+</p>
+
 ---
 
 ## ✨ Features

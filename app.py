@@ -49,7 +49,7 @@ st.set_page_config(
 )
 
 
-# @st.cache_data
+@st.cache_data
 def load_data():
     """Lee el archivo CSV y devuelve un DataFrame."""
     df = pd.read_csv("vehicles_us.csv")
