@@ -44,6 +44,7 @@ El objetivo principal es construir y desplegar una **aplicación web interactiva
 vehicles-dashboard-streamlit/
 │
 ├── app.py
+├── preprocessing.py
 ├── vehicles_us.csv
 ├── requirements.txt
 ├── README.md
